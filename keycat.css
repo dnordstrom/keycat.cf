@@ -1,0 +1,102 @@
+/**
+ * Default Air styles, with its color palette based on the
+ * fantastic Scope theme for Tumblr.
+ *
+ * Color Palette
+ * =============
+ * White          · rgb(255, 255, 255)
+ * Lighter Gray   · rgb(221, 221, 221)
+ * Darker Gray    · rgb(153, 153, 153)
+ * Darkest Gray   · rgb(85, 85, 85)
+ * Lighter Green  · rgb(174, 224, 200)
+ * Darker Green   · rgb(129, 206, 167)
+ *
+ * Miscelleneous
+ * =============
+ * Transition In  · all .15s ease 0s
+ * Transition Out · all .25s ease .25s
+ */
+
+/**
+ * General
+ */
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+body {
+  color: #555;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  font-size: 1.3125rem;
+  font-weight: 300;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+  line-height: 1.6;
+  margin: 0;
+  orphans: 4;
+  padding: 10px 10px 10px;
+  widows: 4;
+}
+
+a {
+  color: rgb(129, 206, 167);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.input {
+  border-bottom: 2px solid #555;
+  height: 88px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  line-height: 88px;
+}
+
+.input-prefix {
+  font-family: monospace;
+  font-size: 28px;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 64px;
+}
+
+.input-prompt {
+  border: none;
+  color: #555;
+  font-family: monospace;
+  font-size: 28px;
+  outline: none;
+  padding: 0 54px;
+  height: 88px;
+  width: 100%;
+}
