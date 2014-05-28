@@ -71,6 +71,20 @@ a:hover {
   text-decoration: underline;
 }
 
+code,
+kbd,
+samp,
+var {
+  background: #F3F3F3;
+  border-radius: 3px;
+  border: 1px solid rgb(221, 221, 221);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 0px 0px #FFF inset;
+  color: #333;
+  margin: 0px 0.15em;
+  padding: 5px 7px 2px;
+  white-space: nowrap;
+}
+
 .input {
   border-bottom: 2px solid #555;
   height: 88px;
@@ -99,4 +113,9 @@ a:hover {
   padding: 0 54px;
   height: 88px;
   width: 100%;
+}
+
+.keys {
+  list-style-type: none;
+  padding: 0;
 }
