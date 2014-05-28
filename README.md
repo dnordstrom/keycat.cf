@@ -1,4 +1,4 @@
-# kcat.cf · Home of the Key Cat
+# keycat.cf · Home of the Key Cat
 
 Ask the Key Cat—the Cat Foundation’s prominent four-legged expert on key maps and keyboard shortcuts—about Vim maps, Firefox shortcuts, and more. Or, point him to your own `.key` files full of custom shortcuts and maps. He’s a remarkably resourceful little beast.
 
